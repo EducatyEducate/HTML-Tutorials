@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+background-image: linear-gradient(to right, #7878bf,#71d160);
+}
+
+h1, h2, h3{
+font-size:25px;
+font-weight:bold;
+  color:white;
+}
+ 
+#try{
+  color:blue;
+}
+
+.green-btn{
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    background: lightgreen;
+    font-size:150%;
+    height:75px;
+    width:125px;
+}
+
+#html1_img{
+  height:400px;
+  width:650px;
+}
