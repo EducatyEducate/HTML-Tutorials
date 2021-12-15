@@ -7,7 +7,7 @@ body {
   padding: 0;
   font-family: sans-serif;
   background-image: linear-gradient(to right, #7878bf, #71d160);
-  overflow:hidden;
+  overflow-x:hidden;
 }
 
 h1,
