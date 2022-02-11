@@ -73,3 +73,7 @@ a {
 section {
   text-align: center;
 }
+.index {
+      height: 200px;
+      width: 200px;
+  }
