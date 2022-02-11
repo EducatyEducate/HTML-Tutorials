@@ -5,16 +5,20 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family:Verdana;
   background-image: linear-gradient(to right, #7878bf, #71d160);
   overflow-x:hidden;
+  user-select: none;
+}
+
+h3,h2{
+  font-weight: 300;
 }
 
 h1,
 h2,
 h3 {
   font-size: 25px;
-  font-weight: bold;
   color: white;
 }
 
@@ -35,26 +39,24 @@ a {
 }
 
 .green-btn {
-  color: dodgerblue;
+  color: rgb(255, 255, 255);
   text-align: center;
   text-decoration: none;
-  border-radius: 8px;
-  border-style: groove;
+  border:none;
+  border-radius: 7px;
   border-color: black;
   background: transparent;
-  font-size: 150%;
+  font-size: 24px;
   height: 75px;
+  background-color: #0D47A1;
+  padding:25px;
   width: 125px;
   outline: none;
 }
 
-.green-btn:visited {
-  color: dodgerblue;
-  border-color: black;
-}
 
 .green-btn:hover {
-  color: darkblue;
+  filter:opacity(70%);
 }
 
 #html1_img {
@@ -63,10 +65,21 @@ a {
   max-width: 100%;
 }
 
-.imgs {
+img.imgs {
   height: auto;
   width: 80%;
   max-width: 100%;
+  -webkit-user-drag: none;
+}
+img.imgs.structure{
+  background-color: white;
+  width:35%;
+  margin:20px;
+}
+img.imgs.exampleheading{
+  background-color: white;
+  width:35%;
+  margin:20px;
 }
 
 
@@ -77,3 +90,7 @@ section {
       height: 200px;
       width: 200px;
   }
+
+button[disabled=true]{
+  cursor:not-allowed;
+}
