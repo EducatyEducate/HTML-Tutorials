@@ -119,4 +119,11 @@ html {
       width: 75px;
       border-radius: 10px;
       left: 20px;
+      top: 20px;
+  }
+  .imgtxt {
+      position: absolute;
+      color: white;
+      left: 20px;
+      top: 78px;
   }
